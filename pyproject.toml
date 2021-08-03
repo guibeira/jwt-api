@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "example_api"
+version = "0.1.0"
+description = ""
+authors = ["GuilhermeVBeira <guilherme.vieira.beira@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.5"
+djangorestframework-simplejwt = "^4.7.2"
+prettyconf = "^2.2.1"
+django-model-utils = "^4.1.1"
+djangorestframework = "^3.12.4"
+django-cors-headers = "^3.7.0"
+dj-database-url = "^0.5.0"
+psycopg2-binary = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
